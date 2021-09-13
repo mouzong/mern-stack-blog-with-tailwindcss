@@ -6,13 +6,13 @@ const About = () => {
       <h1 className="sm:text-4xl text-2xl font-bold mb-6 mt-6 text-gray-900">
         About
       </h1>
-      <p className="mx-auto leading-relaxed text-base mb--4">
+      <p className="mx-auto leading-relaxed text-base mb-4 text-justify">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
         quisquam soluta assumenda maiores dolorum saepe illo qui. Nisi modi,
         enim architecto, quaerat eaque a facilis libero ea doloremque placeat
         vero.
       </p>
-      <p className="mx-auto leading-relaxed text-base mb--4">
+      <p className="mx-auto leading-relaxed text-base mb-4 text-justify">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloribus
         quis impedit eveniet nostrum ut! Quae ratione, quidem delectus sint,
         enim quisquam distinctio nemo maxime repellendus ullam voluptatibus eum.
@@ -20,7 +20,7 @@ const About = () => {
         placeat quam debitis, illum nulla laborum atque perspiciatis provident.
         Harum molestiae voluptas sed, nobis officiis inventore? Deserunt, in!
       </p>
-      <p className="mx-auto leading-relaxed text-base mb--4">
+      <p className="mx-auto leading-relaxed text-base mb-4 text-justify">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem possimus
         sint nostrum ipsum qui consequatur iste officia expedita explicabo.
         Voluptatibus autem quidem quam maiores, quae sed. Veniam reprehenderit

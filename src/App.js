@@ -16,7 +16,7 @@ function App() {
       <div className="max-w-screen-md mx-auto pt-20">
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/article" component={Article} />
+        <Route exact path="/article/:name" component={Article} />
         <Route exact path="/article-list" component={ArticleList} />
       </div>
     </Router>

@@ -1,15 +1,20 @@
 import React from "react";
+import Articles from "../components/Articles";
 import articleContent from "./article-content";
 
 const Article = ({ match }) => {
   const name = match.params.name;
   const article = articleContent.find((article) => article.name === name);
+  const otherArticles = articleContent.filter(
+    (article) => article.name !== name
+  );
   if (!article)
     return (
       <h1>
         Article <span className=""> {name}</span> does not exist
       </h1>
     );
+
   return (
     <>
       <h1 className="sm:text-4xl text-2xl font-bold mb-6 mt-6 text-gray-900">
@@ -23,6 +28,12 @@ const Article = ({ match }) => {
           {paragraph}
         </p>
       ))}
+      <h1 className="sm:text-2x text-xl font-bold mt-4 mb-4 text-gray-900">
+        Other articles
+      </h1>
+      <div className="flex flex-wrap -m-4">
+        <Articles articles={otherArticles} />
+      </div>
     </>
   );
 };
